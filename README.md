@@ -1,7 +1,10 @@
-# 🧪 Task_It
-To Do list in React Native App.
+# 🧪 Task-It
+
+*To Do list in React Native App.*
 
 `Pototype`
+
+*Prototype made in F!gma and XD just for Pre-Features to start code.*
 
 ![App Preview](/src/assets/img/Task-It-cover.png)
 
