@@ -5,4 +5,4 @@ To Do list in React Native App.
 
 ![App Preview](/src/assets/img/TASK-IT.png)
 
-![App Preview](/src/assets/img/Task-It-v0.PNG)
+![App Preview](/src/assets/img/Task-It-v0.png)
