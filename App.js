@@ -30,5 +30,11 @@ const styles = StyleSheet.create({
     height: 1,
     flex: 1,
     alignSelf: "center",
+  },
+  title: {
+    fontSize: 38,
+    fontWeight: "800",
+    color: colors.black,
+    paddingHorizontal: 64,
   }
 });
