@@ -1,6 +1,7 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
+import colors from "./Colors"
 
 export default class App extends React.Component {
   render() {
@@ -21,4 +22,10 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+  divider: {
+    backgroundColor: colors.lightBlue,
+    height: 1,
+    flex: 1,
+    alignSelf: "center",
+  }
 });
