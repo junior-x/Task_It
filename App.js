@@ -9,6 +9,9 @@ export default class App extends React.Component {
       <View style={styles.container}>
         <View style={styles.container}>
           <View style={styles.divider}/>
+          <Text style={styles.title}>
+            TASK <Text style={{fontWeight: "300", color: colors.blue}}>-IT</Text>
+          </Text>
         </View>
       </View>
     );
