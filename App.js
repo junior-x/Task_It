@@ -52,12 +52,12 @@ export default class App extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "#291F30",
     alignItems: "center",
     justifyContent: "center",
   },
   divider: {
-    backgroundColor: colors.lightBlue,
+    backgroundColor: colors.light,
     height: 1,
     flex: 1,
     alignSelf: "center",
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 38,
     fontWeight: "800",
-    color: colors.black,
+    color: colors.light,
     paddingHorizontal: 64,
   },
   addList: {
@@ -77,7 +77,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   add: {
-    color: colors.blue,
+    color: colors.red,
     fontWeight: "600",
     fontSize: 14,
     marginTop: 8,
