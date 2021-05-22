@@ -68,7 +68,7 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     color: colors.light,
     paddingHorizontal: 64,
-    paddingBottom: 30,
+    paddingBottom: 69,
   },
   addList: {
     borderWidth: 2,

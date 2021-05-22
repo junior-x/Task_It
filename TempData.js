@@ -21,7 +21,7 @@ export default tempData = [
   },
   {
     name: "Day Do",
-    color: "#8822D9",
+    color: "#FF3C5F",
     todos: [
         {
             title: "Get Coffee Down",
@@ -39,7 +39,7 @@ export default tempData = [
   },
   {
     name: "Merket",
-    color: "#5958D9",
+    color: "#FFED46",
     todos: [
         {
             title: "Farofa",
