@@ -7,23 +7,28 @@ const tempData = [
     todos: [
         {
             title: "x-Beacon",
-            completed: false
+            completed: false,
+            date: "12/09/2021"
         },
         {
             title: "x-Calabresa",
-            completed: true
+            completed: true,
+            date: "12/09/2021"
         },
         {
             title: "x-Cheese",
-            completed: true
+            completed: true,
+            date: "12/09/2021"
         },
         {
             title: "x-Italy",
-            completed: false
+            completed: false,
+            date: "12/09/2021"
         },
         {
             title: "x-Duplex",
-            completed: false
+            completed: false,
+            date: "12/09/2021"
         },
     ]
   },
@@ -33,15 +38,18 @@ const tempData = [
     todos: [
         {
             title: "Get Coffee Down",
-            completed: true
+            completed: true,
+            date: "12/09/2021"
         },
         {
             title: "Good Morning to folks",
-            completed: false
+            completed: false,
+            date: "12/09/2021"
         },
         {
             title: "Take a Trip",
-            completed: true
+            completed: true,
+            date: "12/09/2021"
         }
     ]
   },
@@ -51,23 +59,28 @@ const tempData = [
     todos: [
         {
             title: "Farofa",
-            completed: true
+            completed: true,
+            date: "12/09/2021"
         },
         {
             title: "Batata-Chips",
-            completed: false
+            completed: false,
+            date: "12/09/2021"
         },
         {
             title: "Frutas",
-            completed: true
+            completed: true,
+            date: "12/09/2021"
         },
         {
             title: "Escova de Dente",
-            completed: true
+            completed: true,
+            date: "12/09/2021"
         },
         {
             title: "Alcool",
-            completed: false
+            completed: false,
+            date: "12/09/2021"
         }
     ]
   },
