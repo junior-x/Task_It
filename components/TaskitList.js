@@ -3,7 +3,7 @@ import {StyleSheet, Text, View, } from "react-native";
 
 export default TaskitList = ({list}) => {
     return(
-        <View style={[Styles.listContainer, { backgroundColor: list.color}]}>
+        <View style={[styles.listContainer, { backgroundColor: list.color}]}>
             <Text style={styles.listTitle} numberOfLines={1}>
                 {list.name}
             </Text>
