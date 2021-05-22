@@ -16,7 +16,15 @@ const tempData = [
         {
             title: "x-Cheese",
             completed: true
-        }
+        },
+        {
+            title: "x-Italy",
+            completed: false
+        },
+        {
+            title: "x-Duplex",
+            completed: false
+        },
     ]
   },
   {
@@ -52,6 +60,14 @@ const tempData = [
         {
             title: "Frutas",
             completed: true
+        },
+        {
+            title: "Escova de Dente",
+            completed: true
+        },
+        {
+            title: "Alcool",
+            completed: false
         }
     ]
   },
