@@ -15,7 +15,7 @@ const styles = StyleSheet.create({
     listContainer: {
         paddingVertical: 32,
         paddingHorizontal: 16,
-        borderRadius: 6,
+        borderRadius: 20,
         marginHorizontal: 12,
         alignItems: "center",
         width: 200,
