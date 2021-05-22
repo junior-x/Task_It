@@ -2,7 +2,7 @@
 
 export default tempData = [
   {
-    name: "Pizza",
+    name: "🍕 Pizza Day! 🍕",
     color: "#FAFAFA",
     todos: [
         {
@@ -20,7 +20,7 @@ export default tempData = [
     ]
   },
   {
-    name: "Day Do",
+    name: "Street-Flow",
     color: "#FF3C5F",
     todos: [
         {
