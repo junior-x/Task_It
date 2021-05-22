@@ -19,7 +19,7 @@ export default class App extends React.Component {
         <View style={{ flexDirection: "row" }}>
           <View style={styles.divider} />
           <Text style={styles.title}>
-            TASK{" "}
+            TASK
             <Text style={{ fontWeight: "300", color: colors.blue }}>-IT</Text>
           </Text>
           <View style={styles.divider} />
