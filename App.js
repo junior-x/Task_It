@@ -16,7 +16,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <StatusBar style="light"/>
+        <StatusBar style="light" />
 
         <View style={{ flexDirection: "row" }}>
           <View style={styles.divider} />
@@ -30,15 +30,13 @@ export default class App extends React.Component {
         <View style={{ height: 275, paddingLeft: 32 }}>
           <FlatList
             data={tempData}
-            keyExtractor={(item) => item.name}
+            keyExtractor={item => item.name}
             horizontal={true}
             showsHorizontalScrollIndicator={false}
-            renderItem={({ item }) => (
-              <TaskitList list={item} />
-            )}
+            renderItem={({ item }) => <TaskitList list={item} />}
           />
         </View>
-        
+
         <View style={{ marginVertical: 48 }}>
           <TouchableOpacity style={styles.addList}>
             <AntDesign name="plus" size={16} color={colors.light} />
@@ -46,7 +44,6 @@ export default class App extends React.Component {
 
           <Text style={styles.add}></Text>
         </View>
-      
       </View>
     );
   }

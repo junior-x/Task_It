@@ -1,8 +1,8 @@
 /// Temporary data until not connected with Firebase
 
-export default tempData = [
+const tempData = [
   {
-    name: "🍕 Pizza Day! 🍕",
+    name: "Pizza Day!",
     color: "#FAFAFA",
     todos: [
         {
@@ -16,7 +16,7 @@ export default tempData = [
         {
             title: "x-Cheese",
             completed: true
-        },
+        }
     ]
   },
   {
@@ -34,7 +34,7 @@ export default tempData = [
         {
             title: "Take a Trip",
             completed: true
-        },
+        }
     ]
   },
   {
@@ -52,7 +52,9 @@ export default tempData = [
         {
             title: "Frutas",
             completed: true
-        },
+        }
     ]
   },
 ];
+
+export default tempData;
