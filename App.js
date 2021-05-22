@@ -25,14 +25,6 @@ export default class App extends React.Component {
           <View style={styles.divider} />
         </View>
 
-        <View style={{ marginVertical: 48 }}>
-          <TouchableOpacity style={styles.addList}>
-            <AntDesign name="plus" size={16} color={colors.blue} />
-          </TouchableOpacity>
-
-          <Text style={styles.add}>Add List</Text>
-        </View>
-
         <View style={{ height: 275, paddingLeft: 32 }}>
           <FlatList
             data={tempData}
@@ -44,6 +36,15 @@ export default class App extends React.Component {
             )}
           />
         </View>
+        
+        <View style={{ marginVertical: 48 }}>
+          <TouchableOpacity style={styles.addList}>
+            <AntDesign name="plus" size={16} color={colors.light} />
+          </TouchableOpacity>
+
+          <Text style={styles.add}></Text>
+        </View>
+      
       </View>
     );
   }
@@ -54,7 +55,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#291F30",
     alignItems: "center",
-    justifyContent: "center",
+    justifyContent: "flex-end",
   },
   divider: {
     backgroundColor: colors.light,
@@ -67,11 +68,12 @@ const styles = StyleSheet.create({
     fontWeight: "800",
     color: colors.light,
     paddingHorizontal: 64,
+    paddingBottom: 30,
   },
   addList: {
     borderWidth: 2,
     borderColor: colors.lightBlue,
-    borderRadius: 4,
+    borderRadius: 12,
     padding: 16,
     alignItems: "center",
     justifyContent: "center",

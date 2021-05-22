@@ -3,7 +3,7 @@
 export default tempData = [
   {
     name: "Pizza",
-    color: "#24A6D9",
+    color: "#FAFAFA",
     todos: [
         {
             title: "x-Beacon",
