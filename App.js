@@ -16,6 +16,8 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <StatusBar style="light"/>
+
         <View style={{ flexDirection: "row" }}>
           <View style={styles.divider} />
           <Text style={styles.title}>
