@@ -23,6 +23,10 @@ export default class App extends React.Component {
     this.setState({addTodoVisible: !this.state.addTodoVisible});
   };
 
+  renderList = list => {
+    return <TaskitList list={list} />
+  };
+
   render() {
     return (
       <View style={styles.container}>
@@ -40,10 +44,10 @@ export default class App extends React.Component {
 
         <View style={{ flexDirection: "row" }}>
           <View style={styles.divider} />
-          <Text style={styles.title}>
-            TASK
-            <Text style={{ fontWeight: "300", color: colors.blue }}>-IT</Text>
-          </Text>
+            <Text style={styles.title}>
+              TASK
+              <Text style={{ fontWeight: "300", color: colors.purple }}>-IT</Text>
+            </Text>
           <View style={styles.divider} />
         </View>
 
@@ -53,7 +57,7 @@ export default class App extends React.Component {
             keyExtractor={item => item.name}
             horizontal={true}
             showsHorizontalScrollIndicator={false}
-            renderItem={({ item }) => <TaskitList list={item} />}
+            renderItem={({ item }) => this.renderList(item)}
           />
         </View>
 
@@ -81,19 +85,20 @@ const styles = StyleSheet.create({
     height: 1,
     flex: 1,
     alignSelf: "center",
+    marginBottom: 69,
   },
   title: {
     fontSize: 38,
     fontWeight: "800",
     color: colors.light,
-    paddingHorizontal: 64,
+    paddingHorizontal: 90,
     paddingBottom: 69,
   },
   addList: {
     borderWidth: 2,
     borderColor: colors.lightBlue,
     borderRadius: 12,
-    padding: 16,
+    padding: 18,
     alignItems: "center",
     justifyContent: "center",
   },
@@ -101,6 +106,6 @@ const styles = StyleSheet.create({
     color: colors.red,
     fontWeight: "600",
     fontSize: 14,
-    marginTop: 8,
+    marginTop: 9,
   },
 });
