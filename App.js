@@ -34,7 +34,7 @@ export default class App extends React.Component {
           visible={this.state.addTodoVisible} 
           onRequestClose={() => this.toggleAddTodoModal()}>
               
-              <AddListModal closeModel={() => this.toggleAddTodoModal()}/>
+              <AddListModal closeModal={() => this.toggleAddTodoModal()} />
             
         </Modal>
 
