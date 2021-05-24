@@ -14,6 +14,12 @@
 
 ---
 
+`v 0.0.3`
+
+![Screen of App](/src/assets/img/Screen-v3.png)
+
+---
+
 `v 0.0.0`
 
 ![Screen of App](/src/assets/img/Task-It-v0.png)
