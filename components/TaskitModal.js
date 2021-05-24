@@ -35,8 +35,8 @@ export default class TaskitModal extends React.Component {
           style={[
             styles.todo,
             {
-              textDecorationLine: todo.completed ? "line-trought" : "none",
-              color: todo.completed ? colors.light : colors.dark,
+              textDecorationLine: todo.completed ? "line-through" : "none",
+              color: todo.completed ? colors.cyan : colors.dark,
             },
           ]}
         >
