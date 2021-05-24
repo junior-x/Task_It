@@ -5,7 +5,7 @@ import colors from "../Colors";
 export default class TaskitList extends React.Component {
 
     state = {
-        showlistVisible: false
+        showListVisible: false
     };
 
     toggleListModal() {
@@ -32,7 +32,10 @@ export default class TaskitList extends React.Component {
 
                 </Modal>
 
-                <TouchableOpacity style={[styles.listContainer, { backgroundColor: list.color}]} onPress={() => this.toggleListModal()}>
+                <TouchableOpacity 
+                        style={[styles.listContainer, { backgroundColor: list.color}]} 
+                        onPress={() => this.toggleListModal()}
+                    >
                     
                     <Text style={styles.listTitle} numberOfLines={1}>
                         {list.name}
