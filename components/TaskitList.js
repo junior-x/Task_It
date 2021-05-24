@@ -1,6 +1,7 @@
 import React from "react";
 import {StyleSheet, Text, View, TouchableOpacity, Modal } from "react-native";
 import colors from "../Colors";
+import TaskitModal from "./TaskitModal";
 
 export default class TaskitList extends React.Component {
 
@@ -26,9 +27,7 @@ export default class TaskitList extends React.Component {
                     visible={this.state.showListVisible} 
                     onRequestClose={() => this.toggleListModal()}
                 >
-                    <View>
-                        <Text>List Modal</Text>
-                    </View>
+                    <TaskitModal list={list} closeModal={() => this.toggleListModal()}/>
 
                 </Modal>
 
