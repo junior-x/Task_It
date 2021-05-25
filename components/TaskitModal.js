@@ -17,10 +17,25 @@ export default class TaskitModal extends React.Component {
     newTodo: ""
   };
 
-  renderTodo = (todo) => {
+  toggleTodoCompleted = index => {
+    let list = this.props.list;
+    list.todos[index].completed = !list.todos[index].completed;
+
+    this.props.updateList(list);
+  };
+
+  addTodo = () => {
+    let list = this.props.list;
+    list.todos.push({ title: this.state.newTodo, completed: false });
+
+    this.props.updateList(list);
+    this.setState({ newTodo: "" });
+  };
+
+  renderTodo = (todo, index) => {
     return (
       <View style={styles.todoContainer}>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => this.toggleTodoCompleted(index)}>
           <Ionicons
             name={todo.completed ? "ios-square" : "ios-square-outline"}
             size={24}
@@ -81,7 +96,7 @@ export default class TaskitModal extends React.Component {
           <View style={[styles.section, { flex: 3 }]}>
             <FlatList
               data={list.todos}
-              renderItem={({ item }) => this.renderTodo(item)}
+              renderItem={({ item, index }) => this.renderTodo(item, index)}
               keyExtractor={(item) => item.title}
               contentContainerStyle={{
                 paddingHorizontal: 32,
@@ -95,10 +110,13 @@ export default class TaskitModal extends React.Component {
             style={[styles.section, styles.footer]}
           >
             <TextInput
-              style={[styles.addTodo, { borderColor: list.color }]}
+              style={[styles.input, { borderColor: list.color }]}
+              onChangeText={text => this.setState({ newTodo: text })}
+              value={this.state.newTodo}
             />
             <TouchableOpacity
               style={[styles.addTodo, { backgroundColor: list.color }]}
+              onPress={() => this.addTodo()}
             >
               <AntDesign name="plus" size={16} color={colors.light} />
             </TouchableOpacity>
