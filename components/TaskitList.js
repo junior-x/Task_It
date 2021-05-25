@@ -71,12 +71,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         width: 200,
     },
-    listCircle: {
-        backgroundColor: colors.dark,
-        flex: 1,
-        alignSelf: "center",
-        marginBottom: 69,
-    },
     listTitle: {
         fontSize: 24,
         fontWeight: "700",
