@@ -1,5 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import React from "react";
+import logo from "./assets/splash.png"
 import {
   StyleSheet,
   TouchableOpacity,
@@ -7,6 +8,7 @@ import {
   View,
   FlatList,
   Modal,
+  Image,
 } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 import colors from "./Colors";
@@ -39,7 +41,8 @@ export default class App extends React.Component {
       })
     })
   };
-
+  
+  ///<!--///Logo test <Image/> (need to run on device)-->
   render() {
     return (
       <View style={styles.container}>
@@ -56,6 +59,7 @@ export default class App extends React.Component {
         </Modal>
 
         <View style={{ flexDirection: "row" }}>
+        <Image source={logo} style={{ width: 306, height: 159 }} />
           <View style={styles.divider} />
             <Text style={styles.title}>
               TASK
