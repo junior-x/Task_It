@@ -32,6 +32,14 @@ export default class App extends React.Component {
     this.setState({ lists: [...this.state.lists, { ...list, id: this.state.lists.length + 1, todos: [] }] })
   };
 
+  updateList = list => {
+    this.setState({
+      lists: this.state.lists.map(item => {
+        return item.id === list.id ? list : item;
+      })
+    })
+  };
+
   render() {
     return (
       <View style={styles.container}>
@@ -63,6 +71,7 @@ export default class App extends React.Component {
             horizontal={true}
             showsHorizontalScrollIndicator={false}
             renderItem={({ item }) => this.renderList(item)}
+            keyboardShouldPersistTaps="always"
           />
         </View>
 

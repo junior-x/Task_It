@@ -2,6 +2,7 @@
 
 const tempData = [
   {
+    id: 1,
     name: "Pizza Day!",
     color: "#FAFAFA",
     todos: [
@@ -33,7 +34,8 @@ const tempData = [
     ]
   },
   {
-    name: "Street-Flow",
+    id: 2,
+    name: "Street Flow",
     color: "#FF3C5F",
     todos: [
         {
@@ -54,6 +56,7 @@ const tempData = [
     ]
   },
   {
+    id: 3,
     name: "Merket",
     color: "#FFED46",
     todos: [
