@@ -156,7 +156,9 @@
 
 <h2 align="center">PRODUTO FINAL<h2>
 
-![Screen of App](/assets/img/Screen-vF.PNG)
+<h1 align="center">
+<img src="./assets/img/Screen-vF.PNG"/> 
+</h1>
 
 ---
 
