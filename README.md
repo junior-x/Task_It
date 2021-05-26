@@ -155,3 +155,12 @@
 - [x] O usuário pode ver uma lista com todas as tarefas ativas;
 - [x] O usuário pode ver a data em que criou a tarefa;
 - [x] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
+
+
+<h2 align="center">Produto Final<h2>
+
+![Screen of App](/assets/img/Screen-vF.PNG)
+
+---
+
+<h1 align="center">🍕</h1>
