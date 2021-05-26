@@ -3,6 +3,15 @@
 
 <p align="center" font-style="italic"> #Simples e estiloso um aplicativo para gerenciar suas tarefas diárias e manter tudo guardado na caxola as coisas mais importantes que sua Mãe pediu antes de voltar para casa. Desenvolvido para dar foco nas coisas importantes da sua vida! S2 </p>
 
+<p align="center">
+ <a href="#objetivo">Objetivo</a> •
+ <a href="#roadmap">Roadmap</a> • 
+ <a href="#tecnologias">Tecnologias</a> • 
+ <a href="#contribuicao">Contribuição</a> • 
+ <a href="#licenc-a">Licença</a> • 
+ <a href="#autor">Autor</a>
+</p>
+
 ![App Preview](/src/assets/img/Task-It-cover.png)
 
 <h1 align="center">🧪 PROTOTYPE</h1>
