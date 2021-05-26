@@ -3,14 +3,13 @@
 
 <p align="center" font-style="italic"> #Simples e estiloso um aplicativo para gerenciar suas tarefas diárias e manter tudo guardado na caxola as coisas mais importantes que sua Mãe pediu antes de voltar para casa. Desenvolvido para dar foco nas coisas importantes da sua vida! S2 </p>
 
+![App Preview](/src/assets/img/Task-It-cover.png)
 
 <h1 align="center">🧪 PROTOTYPE</h1>
 
 [pt_BR]*Protótipo planejado antes da programação do aplicativo, para UI foi utilizado Figma & XD.*
 
 [en_US]*Prototype made in F!gma and XD just for Pre-Features to start code.*
-
-![App Preview](/src/assets/img/Task-It-cover.png)
 
 ![App Preview](/src/assets/img/TASK-IT.png)
 
