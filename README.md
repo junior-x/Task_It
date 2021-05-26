@@ -129,7 +129,7 @@
 
 <h1 href="#author" align="center">📌 AUTHOR</h1>
 
-*...*
+*Existe alguns comflitos de linhas escritas que ficaram carentes de lapidação tanto na parte de função e otimização quanto em aspectos de design quem possuem total foco meu para as proximas aproximações no projeto. Como solução para o primeiro detalhes será a refaturação de linhas e módulos e para o último ítem citado a implementação de bibliotécas de animação para o React-Native deixando a UX/UI mais atraente para o usuário.*
 
 ### Important
 
