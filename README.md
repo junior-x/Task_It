@@ -48,8 +48,9 @@
 - [] O usuário pode ver a data em que criou a tarefa;
 - [] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
 
-
-![Image of App](/assets/img/Screen-v9.PNG)
+<h1 align="center">
+<img src="./assets/img/Screen-v9.PNG"/>
+</h1>
 
 ---
 
@@ -72,8 +73,9 @@
 - [x] O usuário pode ver a data em que criou a tarefa;
 - [x] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
 
-
-![Screen of App](/assets/img/Screen-v3-3.PNG)
+<h1 align="center">
+<img src="./assets/img/Screen-v3-3.PNG" />
+</h1>
 
 ---
 
@@ -97,7 +99,7 @@
 - [] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
 
 
-![Screen of App](/assets/img/Screen-v3-2.PNG)
+<h1 align="center">![Screen of App](/assets/img/Screen-v3-2.PNG)</h1>
 
 ---
 
@@ -120,7 +122,7 @@
 - [] O usuário pode ver a data em que criou a tarefa
 - [] Ao fechar a janela do navegador, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados
 
-![Screen of App](/assets/img/Task-It-v0.png)
+<h1 align="center"><img src="./assets/img/Task-It-v0.png" /> </h1>
 
 
 ---
