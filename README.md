@@ -29,9 +29,49 @@
 
 ---
 
+    `v 0.0.9`
+
+**
+
+### Tasks
+
+- [x] O usuário pode ver um campo `input` onde ele pode digitar um item de tarefa;
+- [x] Pressionando `enter` (ou um botão), o usuário pode enviar o item de pendências e pode ver que está sendo adicionado a uma lista de pendências;
+- [x] O usuário pode marcar uma tarefa como `concluída`;
+- [x] O usuário pode remover uma tarefa deslizando para o lado;
+
+### +++
+
+- [] O usuário pode editar uma tarefa;
+- [x] O usuário pode ver uma lista com todas as tarefas concluídas;
+- [x] O usuário pode ver uma lista com todas as tarefas ativas;
+- [] O usuário pode ver a data em que criou a tarefa;
+- [] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
+
+
+![Image of App](/assets/img/Screen-v9.PNG)
+
+---
+
     `v 0.0.6`
 
 **
+
+### Tasks
+
+- [x] O usuário pode ver um campo `input` onde ele pode digitar um item de tarefa;
+- [x] Pressionando `enter` (ou um botão), o usuário pode enviar o item de pendências e pode ver que está sendo adicionado a uma lista de pendências;
+- [x] O usuário pode marcar uma tarefa como `concluída`;
+- [x] O usuário pode remover um item de tarefa pressionando um botão (ou no próprio item de tarefa);
+
+### +++
+
+- [] O usuário pode editar uma tarefa;
+- [x] O usuário pode ver uma lista com todas as tarefas concluídas;
+- [x] O usuário pode ver uma lista com todas as tarefas ativas;
+- [x] O usuário pode ver a data em que criou a tarefa;
+- [x] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
+
 
 ![Screen of App](/assets/img/Screen-v6.PNG)
 
@@ -41,11 +81,44 @@
 
 *Nesta versão o aplicativo estava com funções de criação de categorias, listas e estilização.*
 
+### Tasks
+
+- [x] O usuário pode ver um campo `input` onde ele pode digitar um item de tarefa;
+- [] Pressionando `enter` (ou um botão), o usuário pode enviar o item de pendências e pode ver que está sendo adicionado a uma lista de pendências;
+- [] O usuário pode marcar uma tarefa como `concluída`;
+- [] O usuário pode remover um item de tarefa pressionando um botão (ou no próprio item de tarefa);
+
+### +++
+
+- [] O usuário pode editar uma tarefa;
+- [x] O usuário pode ver uma lista com todas as tarefas concluídas;
+- [x] O usuário pode ver uma lista com todas as tarefas ativas;
+- [] O usuário pode ver a data em que criou a tarefa;
+- [] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
+
+
 ![Screen of App](/src/assets/img/Screen-v3.png)
 
 ---
 
     `v 0.0.0`
+
+<p align="center">Bootstrapts and main quests</p>
+
+### Tasks
+
+- [] O usuário pode ver um campo `input` onde ele pode digitar um item de tarefa
+- [] Pressionando `enter` (ou um botão), o usuário pode enviar o item de pendências e pode ver que está sendo adicionado a uma lista de pendências
+- [] O usuário pode marcar uma tarefa como `concluída`
+- [] O usuário pode remover um item de tarefa pressionando um botão (ou no próprio item de tarefa)
+
+### +++
+
+- [] O usuário pode editar uma tarefa
+- [] O usuário pode ver uma lista com todas as tarefas concluídas
+- [] O usuário pode ver uma lista com todas as tarefas ativas
+- [] O usuário pode ver a data em que criou a tarefa
+- [] Ao fechar a janela do navegador, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados
 
 ![Screen of App](/src/assets/img/Task-It-v0.png)
 
@@ -60,3 +133,25 @@
 ---
 
 *...*
+
+### Important
+
+-   [ ] MySQL 5.7.x
+-   [ ] React-Native
+-   [ ] Compilar aquivo IPA para o Testflight iOS
+-   [ ] Compilar arquivo APK para teste no Android
+
+### Tasks
+
+- [x] O usuário pode ver um campo `input` onde ele pode digitar um item de tarefa;
+- [x] Pressionando `enter` (ou um botão), o usuário pode enviar o item de pendências e pode ver que está sendo adicionado a uma lista de pendências;
+- [x] O usuário pode marcar uma tarefa como `concluída`;
+- [x] O usuário pode remover um item de tarefa pressionando um botão (ou no próprio item de tarefa);
+
+### +++
+
+- [] O usuário pode editar uma tarefa;
+- [x] O usuário pode ver uma lista com todas as tarefas concluídas;
+- [x] O usuário pode ver uma lista com todas as tarefas ativas;
+- [x] O usuário pode ver a data em que criou a tarefa;
+- [x] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
