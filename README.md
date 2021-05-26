@@ -97,7 +97,7 @@
 - [] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
 
 
-![Screen of App](/src/assets/img/Screen-v3-2.png)
+![Screen of App](/assets/img/Screen-v3-2.png)
 
 ---
 
@@ -120,7 +120,7 @@
 - [] O usuário pode ver a data em que criou a tarefa
 - [] Ao fechar a janela do navegador, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados
 
-![Screen of App](/src/assets/img/Task-It-v0.png)
+![Screen of App](/assets/img/Task-It-v0.png)
 
 
 ---
