@@ -4,17 +4,14 @@
 <p align="center" font-style="italic"> #Simples e estiloso um aplicativo para gerenciar suas tarefas diárias e manter tudo guardado na caxola as coisas mais importantes que sua Mãe pediu antes de voltar para casa. Desenvolvido para dar foco nas coisas importantes da sua vida! S2 </p>
 
 <p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
+ <a href="#prototipo">Protótipo</a> •
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
  <a href="#autor">Autor</a>
 </p>
 
 ![App Preview](/src/assets/img/Task-It-cover.png)
 
-<h1 align="center">🧪 PROTOTYPE</h1>
+<h1 href="#prototipo" align="center">🧪 PROTOTYPE</h1>
 
 [pt_BR]*Protótipo planejado antes da programação do aplicativo, para UI foi utilizado Figma & XD.*
 
@@ -25,6 +22,8 @@
 ![App Preview](/src/assets/img/Task-It-v0.png)
 
 ---
+
+<h1 href="#tecnologias" align="center">🚀 TECNOLOGIAS</h1>
 
 *Um Software criado em React-Native & .Expo para gerenciar funções nativas dos próprios sistemas operacionas dos smartphones: Android/iOS, agilizando o processo de criação e gerando módulos externos através do código .Js para transpilar funções de usuário. Para o auxilio de atividades do UX e evitar instalar bibliotecas a programação foi toda feita junto a plataforma Expo que contém package's já por default do próprio React-Native e na facilitação da construição dos arquivos executáveis de ambos dispositivos.*
 
@@ -54,3 +53,10 @@
 ---
 
   >_
+
+
+<h1 href="#author" align="center">📌 AUTHOR</h1>
+
+---
+
+*...*
