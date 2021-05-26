@@ -73,7 +73,7 @@
 - [x] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
 
 
-![Screen of App](/assets/img/Screen-v6-3.PNG)
+![Screen of App](/assets/img/Screen-v3-3.PNG)
 
 ---
 
@@ -97,7 +97,7 @@
 - [] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
 
 
-![Screen of App](/assets/img/Screen-v3-2.png)
+![Screen of App](/assets/img/Screen-v3-2.PNG)
 
 ---
 
