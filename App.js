@@ -59,8 +59,7 @@ export default class App extends React.Component {
         </Modal>
 
         <View style={{ flexDirection: "row" }}>
-        <Image source={logo} style={{ alignItems:"center", justifyContent:"center", marginBottom: 54, marginRight: 27,}} />
-          
+          <Image source={logo} style={{ alignItems:"center", justifyContent:"center", marginBottom: 54, marginRight: 27 }} />
         </View>
 
         <View style={{ height: 275, paddingLeft: 32 }}>
