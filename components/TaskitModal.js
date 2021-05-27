@@ -8,6 +8,7 @@ import {
   FlatList,
   KeyboardAvoidingView,
   TextInput,
+  Keyboard
 } from "react-native";
 import { AntDesign, Ionicons } from "@expo/vector-icons";
 import colors from "../Colors";
@@ -30,6 +31,8 @@ export default class TaskitModal extends React.Component {
 
     this.props.updateList(list);
     this.setState({ newTodo: "" });
+
+    Keyboard.dismiss();
   };
 
   renderTodo = (todo, index) => {

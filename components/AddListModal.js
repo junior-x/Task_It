@@ -1,8 +1,9 @@
 import React from "react";
-import { View, Text, StyleSheet, KeyboardAvoidingView, TouchableOpacity, TextInput } from "react-native";
+import { View, Text, StyleSheet, KeyboardAvoidingView, TouchableOpacity, TextInput, Image } from "react-native";
 import { AntDesign } from "@expo/vector-icons";
 import colors from "../Colors";
 import tempData from "../TempData";
+import logo from "./assets/splash.png"
 
 export default class AddListModal extends React.Component {
     backgroundColors = [ "#FF3C5F", "#FAFAFA", "#608FEB", "#FFED46", "#C51FFF", "#AFFE60" ];
@@ -36,6 +37,10 @@ export default class AddListModal extends React.Component {
     render() {
         return(
             <KeyboardAvoidingView style={styles.container} behavior="padding">
+
+                <View>
+                    <Image source={logo} style={{ alignItems:"center", justifyContent:"center", marginBottom: 54, marginRight: 27  }} />
+                </View>
                 
                 <TouchableOpacity 
                 style={{position: "absolute", top: 64, right: 32}} 
