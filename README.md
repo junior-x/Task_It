@@ -28,6 +28,8 @@
 
 *Um Software criado em React-Native & .Expo para gerenciar funções nativas dos próprios sistemas operacionas dos smartphones: Android/iOS, agilizando o processo de criação e gerando módulos externos através do código .Js para transpilar funções de usuário. Para o auxilio de atividades do UX e evitar instalar bibliotecas a programação foi toda feita junto a plataforma Expo que contém package's já por default do próprio React-Native e na facilitação da construição dos arquivos executáveis de ambos dispositivos.*
 
+
+<p href="#tecnologias" align="center">  ◽️  ◽️  ◽️  </p>
 ---
 
     `v 0.0.9`
