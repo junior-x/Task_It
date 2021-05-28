@@ -37,18 +37,17 @@ export default class AddListModal extends React.Component {
     render() {
         return(
             <KeyboardAvoidingView style={styles.container} behavior="padding">
-
-                <View>
-                    <Image source={logo} style={{ alignItems:"center", justifyContent:"center", marginBottom: 54, marginRight: 27  }} />
-                </View>
                 
                 <TouchableOpacity 
                 style={{position: "absolute", top: 64, right: 32}} 
                 onPress={this.props.closeModal} >
-                    <AntDesign name="close" size={24} color={colors.dark} />
+                    <AntDesign name="down" size={24} color={colors.light} />
                 </TouchableOpacity>
 
-                <View style={{alignSelf: "stretch", marginHorizontal: 32}}>
+                
+               
+
+                <View style={{alignSelf: "stretch", marginHorizontal: 32,}}>
                     
                     <Text style={styles.title}>
                         Create Task List
@@ -116,5 +115,13 @@ const styles = StyleSheet.create({
         width: 30,
         height: 30,
         borderRadius: 4,
+    },
+    image: { 
+        alignItems:"center",
+        justifyContent:"center", 
+        width: 450,
+        height: 150,
+        marginRight: 270,
+        resizeMode:"contain",
     },
 });
