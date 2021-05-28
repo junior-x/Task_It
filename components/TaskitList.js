@@ -45,12 +45,12 @@ export default class TaskitList extends React.Component {
                     </Text>
                     
                     <View>
-                        <View style={{ alignItems: "center"}}>
+                        <View style={{ alignItems: "center", backgroundColor: colors.dark, borderRadius: 90, height: 60, }}>
                             <Text style={styles.count}>{remainingCount}</Text>
                             <Text style={styles.subtitle}>Remaining</Text>
                         </View>
         
-                        <View style={{ alignItems: "center" }}>
+                        <View style={{ alignItems: "center", backgroundColor: colors.dark, borderRadius: 90, height: 60, }}>
                             <Text style={styles.count}>{completedCount}</Text>
                             <Text style={styles.subtitle}>Completed</Text>
                         </View>
@@ -64,12 +64,14 @@ export default class TaskitList extends React.Component {
 
 const styles = StyleSheet.create({
     listContainer: {
-        paddingVertical: 32,
+        paddingVertical: 45,
         paddingHorizontal: 16,
         borderRadius: 20,
         marginHorizontal: 12,
         alignItems: "center",
         width: 200,
+        flexDirection: "column",
+        justifyContent: "space-between"
     },
     listTitle: {
         fontSize: 24,
