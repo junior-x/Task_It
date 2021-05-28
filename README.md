@@ -135,7 +135,7 @@
 ### Important
 
 -   [ ] MySQL 5.7.x
--   [ ] React-Native
+-   [x] React-Native
 -   [ ] Compilar aquivo IPA para o Testflight iOS
 -   [ ] Compilar arquivo APK para teste no Android
 
