@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, KeyboardAvoidingView, TouchableOpacity, TextInp
 import { AntDesign } from "@expo/vector-icons";
 import colors from "../Colors";
 import tempData from "../TempData";
-import logo from "./assets/splash.png"
+import logo from "../assets/splash.png"
 
 export default class AddListModal extends React.Component {
     backgroundColors = [ "#FF3C5F", "#FAFAFA", "#608FEB", "#FFED46", "#C51FFF", "#AFFE60" ];
@@ -57,6 +57,7 @@ export default class AddListModal extends React.Component {
                     <TextInput 
                         style={styles.input} 
                         placeholder="Task Name?" 
+                        placeholderTextColor={colors.gray}
                         onChangeText={text => this.setState({ name: text })} 
                     />
 
@@ -81,7 +82,8 @@ export default class AddListModal extends React.Component {
 
 const styles = StyleSheet.create({
     container: {
-        color: colors.dark,
+        backgroundColor: colors.dark,
+        color: colors.light,
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
@@ -94,8 +96,9 @@ const styles = StyleSheet.create({
         marginBottom: 16,
     },
     input: {
+        color: colors.light,
         borderWidth: StyleSheet.hairlineWidth,
-        borderColor: colors.blue,
+        borderColor: colors.light,
         borderRadius: 6,
         height: 50,
         marginTop: 8,
