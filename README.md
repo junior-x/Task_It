@@ -100,7 +100,7 @@
 - [] Ao fechar o aplicativo, as tarefas serão armazenadas e quando o usuário retornar, os dados serão recuperados;
 
 
-<h1 align="center">![Screen of App](/assets/img/Screen-v3-2.PNG)</h1>
+<h1 align="center"><img src="./assets/img/Screen-v3-2.PNG" /></h1>
 
 ---
 
