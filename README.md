@@ -159,9 +159,9 @@
 
 <h2 align="center">PRODUTO FINAL<h2>
 
-<h1 align="center">
+<!--<h1 align="center">
 <img src="./assets/img/Screen-vF.PNG"/> 
-</h1>
+</h1>-->
 
 ---
 
